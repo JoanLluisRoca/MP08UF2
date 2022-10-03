@@ -126,6 +126,7 @@ I els paràmetres a canviar hi son els següents.
 ![](https://github.com/JoanLluisRoca/MP08UF2/blob/main/Aplicacions%20web/php4.png)
 
 I l’altra captura.
+
 ![](https://github.com/JoanLluisRoca/MP08UF2/blob/main/Aplicacions%20web/php5.png)
 
 ……………………………………………………………………………………
