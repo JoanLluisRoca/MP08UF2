@@ -130,3 +130,53 @@ I l’altra captura.
 ![](https://github.com/JoanLluisRoca/MP08UF2/blob/main/Aplicacions%20web/php5.png)
 
 ……………………………………………………………………………………
+
+Un cop fet tot aixo, hi anem a configurar l'apache2.
+
+Abans de configurar apache, el primer que hi farem sera anar al fitcher hosts per a que quan hi busquesim owncloud.jlrs.com al buscado ens porti a la maquina local.
+
+Hi accedirem amb la seguent comanda.
+
+![Canvi nom localhost1](https://user-images.githubusercontent.com/114162286/195657737-a620158a-9415-41b2-b904-a1a8ec7a74cf.png)
+
+El que hi tindrem que posar al fitxer es el seguent.
+
+![Canvi localhost2 Owncloud](https://user-images.githubusercontent.com/114162286/195657862-0ccd2216-c6c8-4399-8002-e1542560c5a5.png)
+
+Un cop ho tenim creat, ens apareixera aquesta pantalla a l'ora de buscar-ho al buscador.
+
+![Canvilocalhost2exem](https://user-images.githubusercontent.com/114162286/195661119-a4e7d5dd-78db-422d-8b7f-14f40baa68e0.png)
+
+Un cop hi estem, el que hem de fer per a que ens surti owncloud, es anar a aquest directori.
+
+![confapach2 1](https://user-images.githubusercontent.com/114162286/195662133-6f0247d9-0db3-496c-b49e-f545c4f7bafc.png)
+
+Un cop aqui, hi hem de anar al apartat de sites-available hi fer un ls per veure el que hi ha al fitxer.
+
+![confapache2 2](https://user-images.githubusercontent.com/114162286/195662310-3649d6e8-7946-48c2-ae89-6264a19cc78e.png)
+
+Un cop dins, hi hem de copiar el fitxer 000-default.conf i ho copiare a un fitxer anomenat owncloud.conf i accedirem per modificar-lo.
+
+![confapache2 3](https://user-images.githubusercontent.com/114162286/195662664-b225d00e-5199-47bc-ba98-01b8f67127bb.png)
+
+Un cop dins, el que hi modificarem es per afegir les linies que hi veiem.
+
+![confapache2 4](https://user-images.githubusercontent.com/114162286/195663268-e5ee00aa-a85a-4cf1-8480-21678de24320.png)
+
+Un cop configurat el fitxer, amb la comanda a2ensite habilitarem el fitxer owncloud i seguirem les altres comandes per acabar de configurar apache2.
+
+![confapache2 5](https://user-images.githubusercontent.com/114162286/195663614-bb8db787-c0a9-4806-a974-73f4e2401fa8.png)
+
+![confapache2 6](https://user-images.githubusercontent.com/114162286/195663634-6ed294ca-01c7-4d63-a7d5-79edeeec59de.png)
+
+I per ultim, i farem un restart del apache2 perque es posin tot els serveis i s'actualitze.
+
+![confapache2 7](https://user-images.githubusercontent.com/114162286/195663872-444aba06-71e5-4929-9289-3ca9a5390e24.png)
+
+Un cop finalitzat ja ens deixara entra al nostre owncloud pero ens posara que no hi es segur. Aixi que hem dentrar al seguent fitxer anomenat config.php amb aquesta comanda.
+
+![confapache2 8](https://user-images.githubusercontent.com/114162286/195664130-44d26d69-35f6-4a72-b296-33f65c625459.png)
+
+I li afegirem el seguent.
+
+![confapache2 9](https://user-images.githubusercontent.com/114162286/195664190-6b2bef94-d54c-49b5-9ed9-7f11da189534.png)
