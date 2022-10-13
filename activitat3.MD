@@ -50,8 +50,8 @@ Imatge d'usuari, mail de l'Institut i canvi de l'idioma.
 ![canviscompte1](https://user-images.githubusercontent.com/114162286/195624147-2faa797d-1468-44f4-bfb2-9db2390766aa.png)
 
 Versió d'owncloud.
-![canviversio1](https://user-images.githubusercontent.com/114162286/195624497-06274a5b-5b0b-4bc3-bfd4-183cfdfb717c.png)
 
+![canviversio1](https://user-images.githubusercontent.com/114162286/195624497-06274a5b-5b0b-4bc3-bfd4-183cfdfb717c.png)
 
 .
 
